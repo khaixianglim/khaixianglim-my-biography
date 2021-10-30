@@ -2,7 +2,7 @@
 <script>
     import Header from '$lib/Header.svelte';
     import Section from '$lib/Section.svelte';
-    let title = "My Biography";
+    let title = "biography";
     let myInfo = {
         title: "Info",
         item1: "Lim Khai Xiang",
@@ -26,7 +26,15 @@
 </script>
 <!-- HTML -->
 <Header {title}></Header>
+<br/>
 <Section {...myInfo}></Section>
+<img style= "border-radius: 50%" src="profile-picture.jpg" alt="profile picture" width="240" height="240"/>
 <Section {...myHobby}></Section>
 <Section {...myPersonality}></Section>
 <Footer {github}></Footer>
+<!-- CSS -->
+<style>
+    table, td, tr{
+        border: 1px tomato;
+    }
+</style>

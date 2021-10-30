@@ -7,8 +7,14 @@
 </script>
 <!-- HTML -->
 <div>
-    <h3>{title}</h3>
+    <h3 style="color: tomato; font-family: 'Consolas'"> <b> {title} </b> </h3>
     <p>{item1}</p>
     <p>{item2}</p>
     <p>{item3}</p>
 </div>
+<!-- CSS -->
+<style>
+    p {
+        font-family: 'Consolas';
+    }
+</style>
